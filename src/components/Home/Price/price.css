@@ -40,8 +40,10 @@
 .price .btn5{
     width: 100%;
 }
-@media screen and(max-width:800px){
-    .price .content {
+
+@media(max-width:768px){
+    .content.flex.mtop {
+        display: flex;
         flex-direction: column;
     }
     .price .content .box {
@@ -50,4 +52,5 @@
         border-radius: 10px;
         margin-bottom: 50px;
     }
+
 }
