@@ -37,10 +37,10 @@ header {
   @media screen and (max-width: 768px) {
     header {
       padding: 0;
-      height: 25vh;
+      height: 20vh;
     }
     header img {
-      margin-top: 30px;
+      margin-top: 20px;
     }
     header .button {
       display: none;
@@ -54,7 +54,7 @@ header {
     }
     header .small {
       position: absolute;
-      top: 10vh;
+      top: 20vh;
       left: 0;
       width: 100%;
       background-color: #ae2727;

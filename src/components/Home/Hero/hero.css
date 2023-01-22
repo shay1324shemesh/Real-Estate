@@ -3,8 +3,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 90vh;
+    height: 100%;
     width: 100%;
+    padding-bottom: 50px;
 }
 
 .hero .container{
@@ -49,18 +50,16 @@ form .box:nth-child(1){
 form h4{
     font-weight: 500;
 }
-@media screen and(max-width:800px){
-    .hero .container {
-     padding-top: 30%;   
+.hero .container .flex{
+    display: flex;
+    flex-direction: row;
+}
+
+@media(max-width:768px){
+    .hero .container .flex{
+        flex-direction: column;
     }
-    form{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    form .box {
-        border-left: none;
-    }
-    form input {
-       width: 100%;
+    .hero .container .flex .btn{
+        margin-bottom: 25px;
     }
 }

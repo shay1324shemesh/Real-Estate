@@ -19,3 +19,9 @@
     border-top: 1px solid #efe8f3;
     padding: 10px 30px;
 }
+@media (max-width:768px) {
+    .recent .container {
+        display: flex;
+        flex-direction: column;
+    }
+}

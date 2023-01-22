@@ -149,7 +149,7 @@ img{
 .mb {
   margin-bottom: 80px;
 }
-@media screen and(max-width:768px){
+/* @media screen and(max-width:768px){
   .grid3,
   .grid4,
   .grid5 {
@@ -166,4 +166,4 @@ img{
   .back img {
     height: 30vh;
   }
-}
+} */

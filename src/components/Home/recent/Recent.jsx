@@ -6,7 +6,7 @@ import './recent.css'
 const Recent = () => {
   return (
     <>
-     <section className=''>
+     <section className='recent'>
     <div className="container">
         <Heading title='Recent Property Listed' subtitle='Lorem, 
         ipsum dolor sit amet consectetur adipisicing elit. Eaque, 

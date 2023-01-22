@@ -36,10 +36,25 @@
     margin-right: 20px;
     opacity: 0.8;
 }
+.container-location .content-grid3-mtop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container-location .content-grid3-mtop .box{
+    height: 300px;
+    width: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 @media screen and(max-width:800px){
     .location .overlay::after {
         width: 280px;
         height: 170px;
     }
-    
+    .container-location .content-grid3-mtop{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
 }

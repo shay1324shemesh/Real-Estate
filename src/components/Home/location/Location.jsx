@@ -17,7 +17,7 @@ const Location = () => {
   return (
     <>
      <section className='location padding'>
-        <div className="container">
+        <div className="container-location">
            <Heading 
            title='Explore By Location'
            subtitle='Lorem ipsum dolor sit amet consectetur 
@@ -26,7 +26,7 @@ const Location = () => {
            dolor laborum quas quo illum odio beatae quos quaerat
             ducimus.'
            />
-           <div className="content grid3 mtop">
+           <div className="content-grid3-mtop">
               {location.map((items,index) => {
                 return (
                     <div className="box" key={index}>

@@ -5,6 +5,7 @@ import image2 from '../../Data/images/h2.png'
 import image3 from '../../Data/images/h3.png'
 import image4 from '../../Data/images/h4.png'
 import image5 from '../../Data/images/h6.png'
+import './featured.css'
 
 
 const FeaturedCard = () => {
@@ -12,8 +13,8 @@ const FeaturedCard = () => {
 
   return (
     <>
-    <div className='content grid5 mtop'>
-        {featured.map((items,index) => (
+    <div className='content-grid5-mtop' >
+      {featured.map((items,index) => (
             <div className='box' key={index}>
                 <img src={imageArr[index]} alt=""/>
                 <h4>{items.name}</h4>

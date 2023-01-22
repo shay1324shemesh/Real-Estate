@@ -1,7 +1,7 @@
 .footerContact{
     background-color: #27ae60;
     padding: 40px 0;
-    color: #fff;
+    color: #fff;    
 }
 .footerContact h1 {
     font-size: 40px;
@@ -52,8 +52,10 @@ footer ul li {
     color: rgba(255, 255, 255, 0.5);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-@media screen and(max-width:800px){
+@media(max-width:768px){
     footer .container {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
     }
+
 }

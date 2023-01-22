@@ -32,3 +32,15 @@
 .awards p {
     color: gray;
 }
+.content-grid4-mtop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+@media(max-width:768px){
+    .content-grid4-mtop{
+        flex-direction: column;
+    }
+}
