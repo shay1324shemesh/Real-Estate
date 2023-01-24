@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Real-Estate/static/css/main.aa1695ac.css",
-    "main.js": "/Real-Estate/static/js/main.7f2b96e3.js",
+    "main.js": "/Real-Estate/static/js/main.63d6dfc6.js",
     "static/js/787.ec78c698.chunk.js": "/Real-Estate/static/js/787.ec78c698.chunk.js",
     "static/media/city-5.png": "/Real-Estate/static/media/city-5.58478a3ebd517a9d3292.png",
     "static/media/city-6.png": "/Real-Estate/static/media/city-6.6787fa4802f667037815.png",
@@ -34,11 +34,11 @@
     "static/media/team-6.jpg": "/Real-Estate/static/media/team-6.0f9224bcfdef787503dc.jpg",
     "index.html": "/Real-Estate/index.html",
     "main.aa1695ac.css.map": "/Real-Estate/static/css/main.aa1695ac.css.map",
-    "main.7f2b96e3.js.map": "/Real-Estate/static/js/main.7f2b96e3.js.map",
+    "main.63d6dfc6.js.map": "/Real-Estate/static/js/main.63d6dfc6.js.map",
     "787.ec78c698.chunk.js.map": "/Real-Estate/static/js/787.ec78c698.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa1695ac.css",
-    "static/js/main.7f2b96e3.js"
+    "static/js/main.63d6dfc6.js"
   ]
 }
