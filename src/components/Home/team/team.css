@@ -74,6 +74,13 @@
 @media(max-width:768px){
     .team .container .content{
         display: flex;
+        justify-content: space-evenly;
         flex-direction: column;
+    }
+    .container{
+        max-width: 100%;
+    }
+    .box{
+        width: 350px;
     }
 }

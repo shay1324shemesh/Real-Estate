@@ -3,10 +3,19 @@ import "./header.css"
 import { nav } from "../../Data/data"
 import Logo from './Logo.jpg'
 import { Link } from "react-router-dom"
+import useMediaQuery from "./mediaQuery"
 
 const Header = () => {
   const [navList, setNavList] = useState(false)
+  const isDesktop = useMediaQuery('(max-width: 768px)');
+  var changeSit=()=>{
+    if(isDesktop == true){
+      setNavList(!navList)
+      window.scrollTo(0,0)
+    }
+  }
 
+  console.log(isDesktop);
   return (
     <>
       <header>
@@ -15,10 +24,10 @@ const Header = () => {
             <img src={Logo} alt="" height={'100px'} width={'150px'} />
           </div>
           <div className='nav'>
-            <ul className={navList ? "small" : "flex"}>
+            <ul  className={navList ? "small" : "flex"}>
               {nav.map((list, index) => (
                 <li key={index}>
-                  <Link to={list.path}><button onClick={()=>setNavList(!navList)} style={{background:'white',color:'red'}}>{list.text}</button></Link>
+                  <Link to={list.path}><button onClick={()=>{changeSit()}}  className="hhll" style={{background:'white',color:'black',fontFamily:'poppins',fontSize:'20px'}}>{list.text}</button></Link>
                 </li>
               ))}
             </ul>
