@@ -5,6 +5,7 @@ import Logo from './Logo.jpg'
 import { Link } from "react-router-dom"
 import useMediaQuery from "./mediaQuery"
 
+let task;
 const Header = () => {
   const [navList, setNavList] = useState(false)
   const isDesktop = useMediaQuery('(max-width: 768px)');
@@ -13,9 +14,10 @@ const Header = () => {
       setNavList(!navList)
       window.scrollTo(0,0)
     }
+    else{
+      window.scrollTo(0,0)
+    }
   }
-
-  console.log(isDesktop);
   return (
     <>
       <header>
@@ -27,7 +29,7 @@ const Header = () => {
             <ul  className={navList ? "small" : "flex"}>
               {nav.map((list, index) => (
                 <li key={index}>
-                  <Link to={list.path}><button onClick={()=>{changeSit()}}  className="hhll" style={{background:'white',color:'black',fontFamily:'poppins',fontSize:'20px'}}>{list.text}</button></Link>
+                  <Link to={list.path}><button onClick={()=>{changeSit()}}  className="hhll" style={{color:'black',fontFamily:'poppins',fontSize:'20px',backgroundColor:'white'}}>{list.text}</button></Link>
                 </li>
               ))}
             </ul>

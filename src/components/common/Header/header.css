@@ -57,18 +57,15 @@ header {
       display: flex;
       flex-direction: column;
       align-items: center;
-      top: 20vh;
+      top: 100%;
       left: 0;
       width: 100%;
-      background-color: #ae2727;
+      background-color: #b32020;
       padding: 20px;
-    }
-    header .small button{
-      background-color: none;
     }
     header li a {
       display: inline-block;
       margin-bottom: 20px;
-      color: #fff;
+      color: rgb(255, 255, 255);
     }
   }
